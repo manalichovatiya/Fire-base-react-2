@@ -1,4 +1,3 @@
-// Import the functions you need from the SDKs you need
 import { getSelectionRange } from "@testing-library/user-event/dist/utils";
 import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
@@ -13,7 +12,6 @@ const firebaseConfig = {
   measurementId: "G-7S4Z0H8E1C"
 };
 
-// Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const firestore = getFirestore(app);
 const storage = getSelectionRange(app);

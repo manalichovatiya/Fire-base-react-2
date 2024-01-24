@@ -1,5 +1,5 @@
 import { collection, doc, getDocs, setDoc, updateDoc, deleteDoc } from "firebase/firestore";
-import { firestore } from "../firebase/firbase"; // Adjust the import path
+import { firestore } from "../firebase/firbase";
 
 export const getData = async () => {
   console.log("Fetching data...");
