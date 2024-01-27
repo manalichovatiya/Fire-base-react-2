@@ -9,7 +9,7 @@ root.render(
   <React.StrictMode>
     <Auth0Provider
       domain="manali-47auth.us.auth0.com"
-      clientId="Rk6MsRb8UB44HUVw1R4fM5cx6Krz6D6x"
+      clientId="KWoLDvK0b8i5H3nt4W5UkHWUbOKXqPct"
       authorizationParams={{
         redirect_uri: window.location.origin
       }}

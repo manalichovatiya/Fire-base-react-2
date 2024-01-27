@@ -2,7 +2,6 @@ import { collection, doc, getDocs, setDoc, updateDoc, deleteDoc } from "firebase
 import { firestore } from "../firebase/firbase";
 
 export const getData = async () => {
-  console.log("Fetching data...");
   const allItems = await getDocs(collection(firestore, "todos"));
   return allItems.docs.map((doc) => ({ id: doc.id, ...doc.data() }));
 };
